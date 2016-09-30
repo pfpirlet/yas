@@ -1,0 +1,149 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background: #303037;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  color: #FF5733 ;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+table {
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+  border:15px solid #303037;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.td {
+  border: thick solid #FF5733  ;
+  width: 33%;
+  height: 33%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  color: #FF5733 ;
+}
+
+.td_off {
+  border: thick solid #FF5733  ;
+  width: 33%;
+  height: 33%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  color: #FF5733 ;
+}
+
+.td:active, .td_fake_active {
+  border: thick solid #FF5733  ;
+  width: 33%;
+  height: 33%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  color: #303037;
+  background: #FF5733  ;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+.mode_off {
+  border: thick solid #FF5733  ;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #FF5733 ;
+  display: inline-block;
+  width: 45%;
+}
+
+.mode_on {
+  border: thick solid #FF5733  ;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #303037;
+  background: #FF5733;
+  display: inline-block;
+  width: 45%;
+}
+
+#counter {
+  border: thick solid #FF5733  ;
+  padding: 1%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #FF5733 ;
+  display: inline-block;
+  width: 45%;
+}
+
+#start {
+  border: thick solid #FF5733  ;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #FF5733 ;
+  display: inline-block;
+  width: 91.8%;
+}
+
+#buttons {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 25px;
+  color: #FF5733 ;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}

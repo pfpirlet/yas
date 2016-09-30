@@ -1,0 +1,62 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YAS</title>
+    <meta name="description" content="Yet Another Simon">
+    <link id="favicon" rel="icon" href="https://hyperdev.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>
+        YAS
+      </h1>
+      <h2>Yet Another Simon</h2>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <td id='td1' tag=1 class="noselect, td_off">A</td>
+          <td id='td2' tag=2 class="noselect, td_off">B</td>
+        </tr>
+        <tr>
+          <td id='td3' tag=3 class="noselect, td_off">Y</td>
+          <td id='td4' tag=4 class="noselect, td_off">Z</td>
+        </tr>
+      </table>
+      <div id="buttons">
+        <span id="mode" class="noselect mode_off">Strict mode off</span>
+        <span id="counter" class="noselect">Serie of 0</span>
+        <span id="start" class="noselect">Start</span>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://hyperdev.com">
+        Remix this in HyperDev
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+
+  </body>
+</html>
